@@ -1,0 +1,162 @@
+body {
+    background-image: url("http://i.ndtvimg.com/i/2015-04/fruits-veggies-full_600x350_71428309873.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.main {
+    margin-top: -10px;
+    background-color: white;
+}
+/* Header section */
+header {
+    background-color: green;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    padding-top: -10px;
+}
+
+/* h1 tag in header */
+header h1 {
+    margin-top:20px;
+    color: white;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+/* un-ordered list in header element */
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+/* list in nav tag */
+nav ul li {
+    float: left;
+    padding-top: 30px;
+}
+/* anchor tag in list */
+li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+a:hover {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+/* style for hero section */
+article {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    height: 300px;
+    padding-top: 100px;
+}
+/* style for play now button in hero section */
+#play {
+    padding-top: 100px;
+}
+
+
+
+.fruit h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+    
+}
+h4
+{
+    text-align: justify;
+    color: green;
+    padding-bottom: 10px;
+}
+
+.vegie h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+}
+
+h4
+{
+    text-align: justify;
+    color: green;
+    padding-bottom: 10px;
+}
+.pulses h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+}
+h4
+{
+    text-align:justify;
+    color: green;
+    padding-bottom: 10px;
+}
+
+
+
+/* h2 elements in #_column section */
+ h2 {
+    margin-bottom: 10px;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+
+
+/* footer section */
+footer {
+    margin-top: 10px;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 5px;
+}
+/* styles for social buttons in footer section */
+.social{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+	color: white;
+}
+/* copy rights grid in footer section */
+.copy {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 0px;
+    color: white;
+}
+/* terms and condition in footer section */
+#para 
+{
+    padding-bottom: 20px;
+   padding-top: 20px;
+   
+    
+    text-align: center;
+    color: white;  
+}
+
+/* anchor element in footer section */
+.term a {
+    
+    text-decoration: none;
+    color: white;
+}
