@@ -31,17 +31,23 @@ header h1 {
 ul {
     list-style-type: none;
     margin: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 /* list in nav tag */
 nav ul li {
-    float: left;
-    padding-top: 30px;
+    display: inline;
+    
+    list-style-type: none;
+    
 }
 /* anchor tag in list */
 li a {
     color: white;
     text-decoration: none;
-    padding-right: 40px;
+    padding-right: 10px;
+    font-size: 17px;
+
 }
 
 a:hover {
@@ -133,30 +139,37 @@ footer {
 /* styles for social buttons in footer section */
 .social{
     padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 	color: white;
+    
+
 }
 /* copy rights grid in footer section */
-.copyright {
+.copyright p{
     padding-top: 20px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-left: 0px;
+   
+    padding-bottom: 20px;
+   font-size: 17px;
     color: white;
+    
 }
 /* terms and condition in footer section */
-#term 
+#term a
 {
-    padding-bottom: 20px;
-   padding-top: 20px;
-   text-align: center;
-   color: white;  
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+   color: white; 
+   font-size: 17px; 
+   
 }
 
 /* anchor element in footer section */
-.conditions a {
-    
+.conditions  {
+   
+    font-size: 17px;
     text-decoration: none;
     color: white;
+   
 }
