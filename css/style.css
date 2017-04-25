@@ -62,6 +62,8 @@ article {
 /* style for play now button in hero section */
 #play {
     padding-top: 100px;
+    width:10px ;
+    height:10px;
 }
 
 
