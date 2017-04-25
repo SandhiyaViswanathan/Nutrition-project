@@ -139,7 +139,7 @@ footer {
 	color: white;
 }
 /* copy rights grid in footer section */
-.copy {
+.copyright {
     padding-top: 20px;
     padding-right: 40px;
     padding-bottom: 10px;
@@ -147,7 +147,7 @@ footer {
     color: white;
 }
 /* terms and condition in footer section */
-#para 
+#term 
 {
     padding-bottom: 20px;
    padding-top: 20px;
@@ -156,7 +156,7 @@ footer {
 }
 
 /* anchor element in footer section */
-.term a {
+.condition a {
     
     text-decoration: none;
     color: white;
