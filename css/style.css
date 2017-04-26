@@ -58,16 +58,41 @@ a {
     text-decoration: none;
 }
 /* style for hero section */
-article {
+/* hero-Section */
+.Hero
+{
+   padding-top: 80px;
+   padding-left:0px;
+    color:inherit;
+    background-color: pink;
+    -webkit-border-radius:5px;
+    border-radius: 0px;
     margin-bottom: 10px;
+
+}
+.Hero img
+{
+
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+h3
+{
+    color:blue;
     text-align: center;
-    color: white;
-    height: 300px;
-    padding-top: 100px;
+    font-style: italic;
+    font-weight: bold;
+
 }
 /* style for play now button in hero section */
 #play {
-    padding-top: 100px;
+
+    padding-top: -100px;
+    padding-left: 400px;
+    padding-bottom: 00px;
+
     
 }
 
@@ -119,9 +144,9 @@ h4
 
 
 /* h2 elements in #_column section */
- h2 {
+ .figure h2 {
     margin-bottom: 10px;
-    color: green;
+    color: red;
     text-align: center;
     font-weight: bold;
     padding-top: 0px;
@@ -137,39 +162,53 @@ footer {
     margin-bottom: 5px;
 }
 /* styles for social buttons in footer section */
-.social{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-	color: white;
-    
+.social 
+    {
+    padding-left:30px;
+    padding-bottom: 30px;
+    color: white;
+     }
+.social h6
+    {
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+
+.social a
+        {
+    color:white;
 
 }
 /* copy rights grid in footer section */
-.copyright p{
+.copyright h6
+    {
     padding-top: 20px;
-   
     padding-bottom: 20px;
-   font-size: 17px;
+    font-size: 15px;
     color: white;
-    
-}
+    }
 /* terms and condition in footer section */
-#term a
-{
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-   color: white; 
-   font-size: 17px; 
-   
-}
 
-/* anchor element in footer section */
-.conditions  {
+.conditions  
+    {
    
+   padding-top: 20px;
+   padding-left: 30px;
     font-size: 17px;
     text-decoration: none;
     color: white;
-   
+    }
+.conditions h6
+    {
+    color: white; 
+    font-size: 15px;
+    margin: 0px;
+    }
+.conditions a
+{
+    color: white;
+    padding-left: 50px;
 }
+
+
+
